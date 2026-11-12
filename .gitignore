@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local environment
+.venv/
+.env
+
+# Grader output: drafts and exports hold real student work once you use this for real
+drafts/
+*.csv

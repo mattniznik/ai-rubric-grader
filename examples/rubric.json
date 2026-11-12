@@ -1,0 +1,25 @@
+{
+  "title": "Lists and dictionaries",
+  "assignment": "In 150 to 300 words, explain the difference between a list and a dictionary in Python. Give one example of a problem where you would pick each one, and say why.",
+  "criteria": [
+    {
+      "name": "concepts",
+      "label": "Explains both structures",
+      "points": 40,
+      "description": "Correctly explains that a list is an ordered sequence read by position and a dictionary maps keys to values and is read by key. Names at least one practical difference, such as lookup by key versus by index."
+    },
+    {
+      "name": "examples",
+      "label": "Examples with a reason",
+      "points": 35,
+      "description": "Gives one concrete problem for a list and one for a dictionary, and explains why that structure fits each problem."
+    },
+    {
+      "name": "clarity",
+      "label": "Clarity",
+      "points": 25,
+      "description": "Written in the student's own words, organized, and easy to follow. Uses the terms correctly."
+    }
+  ],
+  "total_points": 100
+}
