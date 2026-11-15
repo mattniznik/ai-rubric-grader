@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/mattniznik/ai-rubric-grader/actions/workflows/ci.yml/badge.svg)](https://github.com/mattniznik/ai-rubric-grader/actions/workflows/ci.yml) ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB) ![Claude](https://img.shields.io/badge/LLM-Claude-D97757) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
+By [Mat Niznik](https://www.linkedin.com/in/matniznik).
+
 A small Python engine that drafts rubric grades with Claude and holds every one of them for a person to approve. You give it a rubric in JSON and a folder of text submissions. For each submission it asks Claude for a score and a short justification per criterion, checks the reply against a strict JSON contract, and saves the result as a draft. Nothing is exported as a grade until someone approves it. It is prompted Claude plus a validation layer and an approval step. There is no fine-tuning and no trained classifier.
 
 I teach programming courses at a university and built the first version of this to draft rubric grades for my own courses; this is that engine with the LMS integration taken out.
